@@ -36,7 +36,7 @@
 				},
 				{
 					"name": "support.constant",
-					"match": "\\b(fn|let|const)\\b"
+					"match": "\\b(fn|var|const)\\b"
 				}
 			]
 		},
