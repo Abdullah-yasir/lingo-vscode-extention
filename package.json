@@ -1,0 +1,34 @@
+{
+	"name": "lingo",
+	"displayName": "Lingo",
+	"description": "Syntax highlighting for lingo",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.78.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "lingo",
+				"aliases": [
+					"lingo",
+					"lingo"
+				],
+				"extensions": [
+					".lo"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "lingo",
+				"scopeName": "source.lingo",
+				"path": "./syntaxes/lingo.tmLanguage.json"
+			}
+		]
+	}
+}
