@@ -20,6 +20,10 @@
 				"extensions": [
 					".lo"
 				],
+				"icon": {
+					"light": "./assets/icon.svg",
+					"dark": "./assets/icon.svg"
+				},
 				"configuration": "./language-configuration.json"
 			}
 		],

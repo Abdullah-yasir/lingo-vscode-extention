@@ -25,14 +25,28 @@
 		},
 		{
 			"include": "#function-parameters"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#identifiers"
 		}
 	],
 	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"match": "#.*$",
+					"name": "comment.line.lingo"
+				}
+			]
+		},
 		"keywords": {
 			"patterns": [
 				{
 					"name": "keyword.control.lingo",
-					"match": "\\b(if|else|while)\\b"
+					"match": "\\b(if|else|while|and|or)\\b"
 				},
 				{
 					"name": "support.constant",
@@ -40,7 +54,14 @@
 				}
 			]
 		},
-
+		"identifiers": {
+			"patterns": [
+				{
+					"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b",
+					"name": "variable.other.identifier.lingo"
+				}
+			]
+		},
 		"built-in-functions": {
 			"patterns": [
 				{
@@ -85,7 +106,7 @@
 			"patterns": [
 				{
 					"name": "keyword.operator.lingo",
-					"match": "\\+|-|\\*|/|%|< | >|<= | >= | == |!= | ="
+					"match": "\\+|-|\\*|/|%|< | >|<= | >= | == |!= | \\|\\| | && | ="
 				}
 			]
 		},
