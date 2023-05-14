@@ -12,7 +12,7 @@
 	"engines": {
 		"vscode": "^1.78.0"
 	},
-	"icon": "https://github.com/Abdullah-yasir/lingo-vscode-extention/blob/main/assets/logo.png",
+	"icon": "https://raw.githubusercontent.com/Abdullah-yasir/lingo-vscode-extention/main/assets/logo.png",
 	"categories": [
 		"Programming Languages"
 	],
