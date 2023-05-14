@@ -1,7 +1,7 @@
 {
-	"name": "lingo",
-	"displayName": "Lingo",
-	"description": "Syntax highlighting for lingo",
+	"name": "cowlang",
+	"displayName": "cowlang",
+	"description": "Syntax highlighting for cowlang",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.78.0"
@@ -13,10 +13,10 @@
 	"contributes": {
 		"languages": [
 			{
-				"id": "lingo",
+				"id": "cowlang",
 				"aliases": [
-					"lingo",
-					"lingo"
+					"cowlang",
+					"cowlang"
 				],
 				"extensions": [
 					".lo"
@@ -30,9 +30,9 @@
 		],
 		"grammars": [
 			{
-				"language": "lingo",
-				"scopeName": "source.lingo",
-				"path": "./syntaxes/lingo.tmLanguage.json"
+				"language": "cowlang",
+				"scopeName": "source.cowlang",
+				"path": "./syntaxes/cowlang.tmLanguage.json"
 			}
 		]
 	}

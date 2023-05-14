@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "lingo",
+	"name": "cowlang",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -38,14 +38,14 @@
 			"patterns": [
 				{
 					"match": "#.*$",
-					"name": "comment.line.lingo"
+					"name": "comment.line.cowlang"
 				}
 			]
 		},
 		"keywords": {
 			"patterns": [
 				{
-					"name": "keyword.control.lingo",
+					"name": "keyword.control.cowlang",
 					"match": "\\b(if|else|while|and|or)\\b"
 				},
 				{
@@ -58,7 +58,7 @@
 			"patterns": [
 				{
 					"match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\b",
-					"name": "variable.other.identifier.lingo"
+					"name": "variable.other.identifier.cowlang"
 				}
 			]
 		},
@@ -71,13 +71,13 @@
 			]
 		},
 		"strings": {
-			"name": "string.quoted.double.lingo",
+			"name": "string.quoted.double.cowlang",
 			"begin": "\"",
 			"end": "\"",
 			"patterns": [
 				{
 					"match": "[^\\$\"\\\\]+",
-					"name": "string.quoted.double.lingo"
+					"name": "string.quoted.double.cowlang"
 				}
 			]
 		},
@@ -86,18 +86,18 @@
 			"patterns": [
 				{
 					"match": "\\b\\d+\\b",
-					"name": "constant.numeric.lingo"
+					"name": "constant.numeric.cowlang"
 				},
 				{
 					"match": "\\b\\d+\\.\\d+\\b",
-					"name": "constant.numeric.float.lingo"
+					"name": "constant.numeric.float.cowlang"
 				}
 			]
 		},
 		"brackets": {
 			"patterns": [
 				{
-					"name": "punctuation.definition.bracket.lingo",
+					"name": "punctuation.definition.bracket.cowlang",
 					"match": "[()\\[\\]{};,]"
 				}
 			]
@@ -105,7 +105,7 @@
 		"operators": {
 			"patterns": [
 				{
-					"name": "keyword.operator.lingo",
+					"name": "keyword.operator.cowlang",
 					"match": "\\+|-|\\*|/|%|< | >|<= | >= | == |!= | \\|\\| | && | ="
 				}
 			]
@@ -122,10 +122,10 @@
 			"patterns": [
 				{
 					"match": "(?<=\\bfn\\s+[a-zA-Z_][a-zA-Z0-9_]*\\s*\\()([^)]*)(?=\\))",
-					"name": "variable.parameter.function.lingo"
+					"name": "variable.parameter.function.cowlang"
 				}
 			]
 		}
 	},
-	"scopeName": "source.lingo"
+	"scopeName": "source.cowlang"
 }
