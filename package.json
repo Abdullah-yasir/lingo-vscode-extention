@@ -19,7 +19,7 @@
 					"cowlang"
 				],
 				"extensions": [
-					".lo"
+					".cow"
 				],
 				"icon": {
 					"light": "./assets/icon.svg",
