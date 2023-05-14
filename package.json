@@ -32,7 +32,7 @@
 			{
 				"language": "cowlang",
 				"scopeName": "source.cowlang",
-				"path": "./syntaxes/cowlang.tmLanguage.json"
+				"path": "./syntaxes/lingo.tmLanguage.json"
 			}
 		]
 	}
