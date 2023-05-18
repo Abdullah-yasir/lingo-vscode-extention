@@ -12,7 +12,7 @@
 			"include": "#built-in-functions"
 		},
 		{
-			"include": "#numbers"
+			"include": "#constants"
 		},
 		{
 			"include": "#brackets"
@@ -87,7 +87,7 @@
 			]
 		},
 
-		"numbers": {
+		"constants": {
 			"patterns": [
 				{
 					"match": "\\b\\d+\\b",
@@ -96,6 +96,10 @@
 				{
 					"match": "\\b\\d+\\.\\d+\\b",
 					"name": "constant.numeric.float.cowlang"
+				},
+				{
+					"match": "\\b(true|false)\\b",
+					"name": "constant.language"
 				}
 			]
 		},
