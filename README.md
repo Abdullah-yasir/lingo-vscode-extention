@@ -44,7 +44,22 @@ Initial release:
     -   Comments
     -   Operators
     -   Function Parameters
+    -   Function Param Types
 
 -   File Icons for `.cow` files
 
 ---
+
+### 1.0.1
+
+-   Syntax hightlighting for:
+
+    -   Variable Types
+    -   Boolean Values
+
+### 1.0.2
+
+-   Syntax hightlighting for:
+
+    -   Function Param Types
+    -   Null Value
